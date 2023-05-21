@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<title>reveal.js</title>
-
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
@@ -17,16 +17,39 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					Slide 1
-					<img src="https://www.merito.pl/sites/wsb/files/MERITO%20UCZELNIE%20LOGO.png">
+					<div class="container">
+						<div class="row">
+						  <div class="col-sm">
+							<img src="https://static1.money.pl/i/msp/znaki_towarowe/73/408583" width="150" height="150">
+						  </div>
+						  <div class="col-sm">
+							text
+						  </div>
+						</div>
+						<div class="row">
+							<div class="col-sm">
+							  text
+							</div>
+							<div class="col-sm">
+								<img src="https://static1.money.pl/i/msp/znaki_towarowe/73/408583" width="150" height="150">
+							</div>
+						  </div>
+					  </div>
 				</section>
 				<section>
-					Slide 2
-					<p>
-						Najczęściej wybierane uczelnie niepubliczne w Polsce 
-						Pierwsza nasza uczelnia powstała ponad 29 lat temu. Przez ten czas bardzo się zmieniliśmy. Z małej, lokalnej szkoły wyższej staliśmy się najczęściej wybieranymi uczelniami niepublicznymi w Polsce. Do tej pory zaufało nam ponad 450 000 studentów. 
-						Uczelnie WSB Merito znajdziesz w 11 miastach w Polsce (w 10 miastach uniwersytety, a w Warszawie Uczelnię WSB Merito). Mamy bogatą ofertę kierunków. Na naszych studiach zyskasz praktyczną wiedzę i dyplom rozpoznawany przez pracodawców. 
-					</p>
+					<div class="row">
+						<div class="col-sm">
+						  text
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm">
+							<img src="https://static1.money.pl/i/msp/znaki_towarowe/73/408583" width="150" height="150">
+						</div>
+						<div class="col-sm">
+							<img src="https://static1.money.pl/i/msp/znaki_towarowe/73/408583" width="150" height="150">
+						</div>
+					  </div>
 				</section>
 				<section>Slide 3
 					<p>
@@ -46,16 +69,17 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
+			
 		</script>
 	</body>
 </html>
